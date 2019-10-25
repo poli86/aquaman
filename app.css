@@ -1,0 +1,250 @@
+/*Fonts*/
+/*font-family: 'Black And White Picture', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture');
+/*Fonts2*/
+/*font-family: 'Shadows Into Light Two', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*GENERAL*/
+#logo {
+    display: block;
+    float: left;
+    width: 105px;
+    font-family: 'Black And White Picture', sans-serif;
+    text-align: center;
+    color: #022c70;
+}
+#logo:hover,
+#logo:visited,
+#logo:focus {
+    text-decoration: none;
+    color: #333;
+}
+
+#logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px: 
+
+}
+.wrap {
+    display: block;
+    width: 100%;
+}
+.wrap .container-fluid {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header {
+    padding: 15px 0;
+    background :rgba(255, 7, 7, 0);
+    position: relative;
+    z-index: 1;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Black And White Picture', sans-serif;
+
+
+}
+/*HEADER*/
+.main-nav {
+    float: left;
+    margin-left: 15px: 
+}
+.main-nav ul {
+    display: inline-block;
+    padding: 15px;
+   
+
+}
+.main-nav ul li {
+    float: left;
+    position: relative;
+    transition: 0.3s;
+}
+
+.main-nav ul li:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    height: 2px;
+    width: 100%;
+    background:#bd4241;
+    opacity: 0;
+    transform: 0.3s;
+
+
+}
+
+.main-nav ul li:hover:after {
+    opacity: 1;
+    bottom: 0
+
+}
+.main-nav ul li a {
+    display: block;
+    padding: 30px;
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 25px;
+    color: #333;
+    transform: 0.3s;
+   
+
+}
+.main-nav ul li a:hover {
+    color:#bd4241;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a:visited,
+.main-nav ul li a:focus {
+   text-decoration: none;
+   /* color: #333;*/
+}
+
+.main-slider {
+    display: block;
+    width: 100%;
+    height: 1050px;
+    background: url('../img/bg-slider2.jpg') no-repeat center center;
+    background size: cover;
+    margin-top: -260px;
+    padding: 290px 0 0 0;
+}
+
+.main-slider h1 {
+    border-left: 4px solid #fff;
+    color: #fffc1e;
+    margin-left: 100px;
+    padding:  15px 15px;
+    padding-left: 20px;
+    margin-top: 120px;
+   
+
+}
+.main-slider  p {
+    color: #9bda9b;
+    margin-left: 100px;
+    margin-top: 10px; 
+    margin-bottom: 40px;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Shadows Into Light Two', cursive;
+
+}
+.main-slider .social {
+    text-align: center;
+    margin-top: 15px: 
+}
+
+.main-slider .social a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.main-slider .social a :hover,
+.main-slider .social a :visited,
+.main-slider .social a :focus {
+    text-decoration: none;
+       color: #11172f;
+}
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width:992px) { 
+
+ }
+
+/* Small devices (tablets, 768px and up) */
+/*@media only screen and (max-width: 768px) { 
+    .tx-center {
+        text-align: center;
+    }
+    #logo {
+        display: inline-block;
+        float: none;
+    }
+
+    .main-nav ul li {
+         visibility: hidden;
+    }
+       .main-slider {
+        padding: 180px 0 0 0;
+        height: auto;
+        margin-left: 0px;
+    }
+       .main-slider h1 {
+        margin-left: auto;: 
+
+       }
+        .main-slider p {
+            margin-left: auto;: 
+        }
+
+    .main-slider .social {
+        padding-bottom: 20px;
+    }
+
+}*/
+
+
+
+/* Small devices Extra-small-screen (phone, 445px)*/
+@media only screen and (max-width: 445px) { 
+
+ }
+
