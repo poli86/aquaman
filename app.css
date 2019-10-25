@@ -160,7 +160,7 @@ h1 {
     display: block;
     width: 100%;
     height: 1050px;
-    background: url('../img/bg-slider2.jpg') no-repeat center center;
+    background: url('bg-slider2.jpg') no-repeat center center;
     background size: cover;
     margin-top: -260px;
     padding: 290px 0 0 0;
